@@ -23,6 +23,7 @@ class MainActivity : AppCompatActivity() {
             viewBMI.setText("");
 
             imageView.setImageResource(R.drawable.empty)
+            //...
         }
     }
 
