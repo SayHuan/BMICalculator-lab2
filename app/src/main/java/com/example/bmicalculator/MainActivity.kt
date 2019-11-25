@@ -20,6 +20,9 @@ class MainActivity : AppCompatActivity() {
         btnReset.setOnClickListener(){
             edit_height.text = null
             edit_weight.setText("");
+            viewBMI.setText("");
+
+            imageView.setImageResource(R.drawable.empty)
         }
     }
 
